@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One GYM</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar bg-body-tertiary ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="logo.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </a>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Welcome to Our Gym</h1>
+      <p>Get fit and stay healthy with our experienced trainers.</p>
+      <section class="join-now" id="join-now-section">
+        <div class="container">
+          <h2>Join Now</h2>
+          <button id="join-now-button" class="cta-button">Join Now</button>
+        </div>
+      </section>
+      <!-- <a href="form.html" class="cta-button">Join Now</a> -->
+    </div>
+
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>"Welcome to our vibrant gym, where fitness meets passion! We are here to empower you on your journey towards a
+        healthier and stronger you.
+        At our gym, we believe that fitness should be an enjoyable and uplifting experience. Our state-of-the-art
+        facilities and expert trainers are dedicated to providing you with the guidance and support you need to reach
+        your fitness goals.
+        Whether you're a beginner or a seasoned fitness enthusiast, we have a wide range of classes and programs
+        tailored to your individual needs. From high-energy group workouts to personalized training sessions, our
+        dynamic offerings ensure there's always something exciting for everyone.
+        Beyond just physical fitness, we foster a welcoming community that celebrates progress and embraces positivity.
+        Our members form lasting connections, motivating and inspiring one another to push beyond limits.
+        Join us today and be part of our fitness family. Unleash your potential, ignite your passion, and embark on a
+        transformative fitness journey with us."
+        Remember, you can customize and adapt this description</p>
+
+    </div>
+  </section>
+
+  <!-- Classes Section -->
+  <section class="classes">
+    <div class="container">
+      <h2>Our Classes</h2>
+      <div class="class-card">
+        <img src="class1.jpg" alt="Class 1">
+        <h3>Cross-Fit</h3>
+        <p>"CrossFit is a dynamic fitness program that combines weightlifting, cardio, and bodyweight exercises.
+          It pushes individuals to their limits, improving overall fitness and athletic performance.
+          With constantly varied workouts and a supportive community, CrossFit offers a transformative fitness
+          experience that builds strength, endurance, and resilience."</p>
+      </div>
+      <div class="class-card">
+        <img src="class2.jpg" alt="Class 2">
+        <h3>Yoga Class</h3>
+        <p>"Yoga is a holistic practice that combines physical postures, breath control, and meditation.
+          It promotes flexibility, strength, and relaxation while fostering mindfulness and inner peace.
+          Through the integration of body, mind, and spirit, yoga offers a transformative journey of self-discovery and
+          well-being."</p>
+      </div>
+      <div class="class-card">
+        <img src="class3.jpg" alt="Class 3">
+        <h3>Regular Gym</h3>
+        <p>"A regular gym provides a comprehensive fitness experience with a range of exercise equipment and facilities.
+          It offers opportunities for strength training, cardiovascular workouts, and flexibility exercises.
+          With a focus on individual fitness goals, regular gyms provide a supportive environment for achieving overall
+          health and wellness."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" name="name1" placeholder="Your Name" required>
+        <input type="email" name="email1" placeholder="Your Email" required>
+        <textarea name="message1" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Pop-up Form -->
+  <div id="join-now-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+
+      <form id="join-now-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Gym Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
